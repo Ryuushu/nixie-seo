@@ -1,0 +1,36 @@
+{
+    "name": "nixie/seo",
+    "description": "A comprehensive Laravel SEO package for managing meta tags, Open Graph, Twitter Cards, and structured data",
+    "type": "library",
+    "keywords": ["laravel", "seo", "meta-tags", "open-graph", "twitter-cards", "schema"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nixie Team",
+            "email": "kzjzaj@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1|^8.2",
+        "laravel/framework": "^9.0|^10.0|^11.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/database": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/routing": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/view": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nixie\\Seo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nixie\\Seo\\SeoServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+    "version": "1.0.0"
+}
