@@ -7,7 +7,7 @@ Paket SEO lengkap untuk Laravel — kelola **Meta Tags**, **Open Graph**, **Twit
 ## 🚀 Instalasi
 
 ```bash
-composer require nixie-seo/seo
+composer require nixie/seo
 ```
 
 ### Publikasikan aset
